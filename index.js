@@ -11,7 +11,7 @@ const poundConv = document.querySelector("#pound")
 
 
 inputBtn.addEventListener("click", function(){
-     feetConv.textContent = `${userInput.value} metric meters = ${userInput.value* 3.281.toFixed(3)} imperial feet.`
+     feetConv.textContent = `${userInput.value} metric meters = ${userInput.value * 3.281.toFixed(3)} imperial feet.`
      gallonConv.textContent = `${userInput.value} metric liters = ${userInput.value * 0.264.toFixed(3)} imperial gallons.`
      poundConv.textContent = `${userInput.value} metric kilograms = ${userInput.value * 2.204.toFixed(3)} imperial pounds.`
 })
