@@ -1,11 +1,6 @@
 body {
     margin: 0 auto;
     text-align: center;
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-           -webkit-appearance: none;
-            margin: 0;
-    }
 }
 
 #heading-input {
@@ -23,7 +18,6 @@ body {
     margin-bottom: 10px;
     font-size: 30px;
     background: #6943FF;
-
 }
 
 #input-btn{
