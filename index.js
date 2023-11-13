@@ -10,9 +10,9 @@ const gallonConv = document.querySelector("#gallon")
 const poundConv = document.querySelector("#pound")
 
 inputBtn.addEventListener("click", function(){
-     feetConv.textContent = `${userInput.value} M = ${(userInput.value * 3.281).toFixed(3)} FT   |   ${userInput.value} FT = ${(userInput.value / 3.281).toFixed(3)} M`
-     gallonConv.textContent = `${userInput.value} L = ${(userInput.value * 0.264).toFixed(3)} GL   |   ${userInput.value} GL = ${(userInput.value / 0.264).toFixed(3)} L`
-     poundConv.textContent = `${userInput.value} KG = ${(userInput.value * 2.204).toFixed(3)} LBS   |   ${userInput.value} LBS = ${(userInput.value / 2.204).toFixed(3)} KG`
+     feetConv.textContent = `${userInput.value} M = ${(userInput.value * 3.281).toFixed(3)} FT | ${userInput.value} FT = ${(userInput.value / 3.281).toFixed(3)} M`
+     gallonConv.textContent = `${userInput.value} L = ${(userInput.value * 0.264).toFixed(3)} GL | ${userInput.value} GL = ${(userInput.value / 0.264).toFixed(3)} L`
+     poundConv.textContent = `${userInput.value} KG = ${(userInput.value * 2.204).toFixed(3)} LBS | ${userInput.value} LBS = ${(userInput.value / 2.204).toFixed(3)} KG`
 })
 
 inputBtn.addEventListener("click", render)
