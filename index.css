@@ -4,6 +4,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    background: #1C1C1C;
 }
 
 #heading-input {
@@ -33,4 +34,12 @@ body {
     width: 117px;
     height: 42px;
 
+}
+
+p {
+    color: #FFFFFF
+}
+
+#output {
+    background: #1F2937;
 }
