@@ -1,14 +1,18 @@
 body {
     margin: 0 auto;
     text-align: center;
-}
-
-#heading-input {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+#heading-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #6943FF;
-    padding: 100px;
+    width: 550px;
+    height: 285px;
 }
 
 #input-field{
