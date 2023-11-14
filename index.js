@@ -15,8 +15,6 @@ inputBtn.addEventListener("click", function(){
      poundConv.textContent = `${userInput.value} KG = ${(userInput.value * 2.204).toFixed(3)} LBS | ${userInput.value} LBS = ${(userInput.value / 2.204).toFixed(3)} KG`
 })
 
-inputBtn.addEventListener("click", render)
-
 
 // inputBtn.addEventListener("click", function(){
 //      feetConv.innerHTML = `<h2>${userInput.value} meters = ${(userInput.value * 3.281).toFixed(3)} feet | ${userInput.value} feet = ${(userInput.value / 3.281).toFixed(3)} meters </h2>`
